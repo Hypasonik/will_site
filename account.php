@@ -18,7 +18,10 @@
         <!--content start-->
     	<div class="content">
             <h1>Account Details</h1>
-                <p>account stuff here</p>     
+                <p>account stuff here</p>
+				
+				This is a test! 
+				
         </div>
         <!--content end-->   
 	</div>
