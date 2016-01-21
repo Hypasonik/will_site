@@ -11,6 +11,7 @@ $lawyer_id = $_POST['l'];
 $codicil_id = $_POST['c'];
 $now = time();
 
+//lol
 $file_name = $testator_id . "-" . $now . ".pdf"; 
  
 if (!file_exists("files/" . $testator_id . "/"))
