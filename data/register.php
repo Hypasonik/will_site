@@ -16,10 +16,16 @@ $password = generate_strong_password();
 //hash password with sha512 algorithm
 $password_hash = hash('sha512', $password);
 
+<<<<<<< HEAD
 //TODO duplicate email
 if (!send_confimation_email($email, $password)){
 	header("location: error.php");
 	//die();
+=======
+if (!send_confimation_email($email, $password)){
+	header("location: error.php");
+	die();
+>>>>>>> refs/remotes/origin/Dev_alex
 }
 
 // Inserting a new extended user, so type is 1
@@ -32,7 +38,11 @@ insert( "extended_users",
 		"user_id, first_name, last_name, firm_name, registration_number, sa_id, tel_number, tel_number_2, business_address, postal_address", 
   		"$user_id, '$first_name', '$last_name', '$firm_name', '$registration_number', '$sa_id', '$tel_number', '$tel_number_2', '$business_address', '$postal_address'");
 
+<<<<<<< HEAD
 //header ("location: ../index.php");
+=======
+header ("location: ../index.php");
+>>>>>>> refs/remotes/origin/Dev_alex
 
 function generate_strong_password($length = 10, $nr_special = 2, $nr_numbers = 2) {
     
@@ -60,7 +70,11 @@ function generate_strong_password($length = 10, $nr_special = 2, $nr_numbers = 2
     return str_shuffle($pw);
 }
 
+<<<<<<< HEAD
 //sends approval email
+=======
+
+>>>>>>> refs/remotes/origin/Dev_alex
 function send_confimation_email($email, $password){
 	$msg = "NOOB";
 	

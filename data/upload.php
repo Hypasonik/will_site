@@ -1,6 +1,10 @@
 <?php
 
+<<<<<<< HEAD
 include_once 'db.php';
+=======
+include 'db.php';
+>>>>>>> refs/remotes/origin/Dev_alex
 
 //person = testator
 $testator_id = $_POST['id'];
@@ -11,7 +15,10 @@ $lawyer_id = $_POST['l'];
 $codicil_id = $_POST['c'];
 $now = time();
 
+<<<<<<< HEAD
 //lol
+=======
+>>>>>>> refs/remotes/origin/Dev_alex
 $file_name = $testator_id . "-" . $now . ".pdf"; 
  
 if (!file_exists("files/" . $testator_id . "/"))

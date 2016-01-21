@@ -18,7 +18,14 @@
         <!--content start-->
     	<div class="content">
             <h1>Account Details</h1>
+<<<<<<< HEAD
                 <p>account stuff here</p>     
+=======
+                <p>account stuff here</p>
+				
+				This is a test! 
+				
+>>>>>>> refs/remotes/origin/Dev_alex
         </div>
         <!--content end-->   
 	</div>
